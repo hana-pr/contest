@@ -1,0 +1,16 @@
+body{
+    background-color: #4381C1;
+    color:#fdffff;
+    width:500px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+input{
+    height: 20px;
+    width: 50px;
+}
+
+textarea {
+    resize: none;
+}
