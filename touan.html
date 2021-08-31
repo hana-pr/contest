@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>もぎせか答案作成</title>
+    <link rel="stylesheet" href="touan.css"/>
+</head>
+<body>
+    <h1>もぎせか答案作成</h1>
+    <label for="mojimax">文字数制限</label><br>
+    <input type="number" id="mojimax" value="120" step="20"/><br>
+    <label for="touan">答案</label><br>
+    <textarea autofocus id="touan" cols="40" rows="11" maxlength="200" onkeyup="inputlength(value);" placeholder="ここに答案を記述してください。"></textarea></br>
+    <span id="mojisuu">0文字</span>
+    <span id="hantei"> [OK]</span>
+    <script src="touan.js"></script>
+</body>
+</html>
